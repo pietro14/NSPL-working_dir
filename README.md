@@ -1,5 +1,7 @@
 # NSPL-working_directory-2018
 
+(The content of this repository is mostly in Italian)
+
 Working directory for the Nuclear and Subnuclear Physics Laboratory (NSPL). I only uploaded the code we used and not the data.
 
 The lab report (only in Italian) can be found at this link:
