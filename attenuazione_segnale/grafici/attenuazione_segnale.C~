@@ -1,0 +1,44 @@
+
+
+
+{
+
+
+
+TCanvas * draw_canvas=new TCanvas("draw_canvas","draw_canvas");
+   //definizione di un frame per visualizzare il segnale
+
+
+ double e_charge[]={2.8e2, 1.85e2, 1.43e2};
+ double e_distance[]={5,5,5}; //mettere l'incertezza giusta
+ 
+ double distance[] = {65, 91.3, 116.9};
+
+
+
+ double charge[] = {1.475e5, 8.96e4, 6.34e4};
+
+
+
+ TGraphErrors* g  = new TGraphErrors(3 ,distance, charge, e_distance, e_charge);
+ 
+
+ 
+    
+    TF1 *f = new TF1("exp","[0]*x+[1]", 50, 130 );
+
+    
+
+    g->SetMarkerStyle(40); 
+    g->SetMarkerSize(0.4);
+        
+    g->GetXaxis()->SetTitle("#Deltax [cm]");
+    g->GetYaxis()->SetTitle("#Deltaq [?]");
+    g->Draw("AP");
+ 
+  g->Fit("f","R");
+    
+
+
+}
+
