@@ -2,7 +2,7 @@
 
 (The content of this repository is mostly in Italian)
 
-Working directory for the Nuclear and Subnuclear Physics Laboratory (NSPL). I only uploaded the code that we used and without the data.
+Working directory for the Nuclear and Subnuclear Physics Laboratory (NSPL). I only uploaded the code that we used, without the data.
 
 The final lab report (in Italian) can be found at this link:
 
