@@ -1,0 +1,28 @@
+COME DECIDIAMO LA LUNGHEZZA DEL CAVO LUNGHISSIMO???
+
+-possiamo stimare la lunghezza minima partendo da considerazioni sulla velocità della luce...
+
+-possiamo stiamre la lunghezza massima:
+	* al secondo ordine la lughezza massima sarà quella per la quale la probabilità di avere   		delle coicnidenze fasulle dovute al rumore non è trascurabile (da stimare con la 		fromuletta del prof.).
+	* al primo ordine invece la lunghezza massima sarà data dalla ampiezza temporale del 		segnale digitale. Infatti se il ritardo è più grande di questa ampiezza, non avrò mai 		coincidenze.	
+
+
+
+
+OSSERVAZIONE (perchè abbiamo un istogramma??):
+il fatto che lo strumetno non misuri un differenza unica (e quindi generi un istogramma), è legato a molti fattori:
+	- la propagazione dei fotoni nel material scintillatore non sarà mai costante (anche 
+	perchè i fotoni in realtà rimbalzano sulle pareti della barra, e il numero di urti 		non sarà sempre lo stesso)
+	- risulouzione del fotomoltiplicatore
+	- risoluzione dello strumento che fa la differenza
+
+
+
+FARE SCHEMETTO con le con barre e coincidenze
+
+
+VOGLIAMO SCRIVERE CON ESATTEZZA LA LUNGHEZZZA DEI CAVI IN RELAZIONE???
+
+
+
+ATTENZIONE A COME STIMARE L'INCERTEZZA SULLA DISTANZA (DISTRIBUZIONE UNIF. e bisognerebbe tenere in conto gli angoli)
