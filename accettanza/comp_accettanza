@@ -1,0 +1,1 @@
+g++ -m64 -I `root-config --incdir` -L. `root-config --libs` -o accettanza accettanza.C
